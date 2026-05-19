@@ -1,0 +1,29 @@
+# Local agent metadata
+.agents/
+.codex/
+.repo.git/
+
+# Third-party source trees kept outside this config repository
+package/OpenClash/
+package/*/.git/
+
+# OpenWrt build outputs, if this config repo is used inside a build tree
+bin/
+build_dir/
+dl/
+feeds/
+logs/
+staging_dir/
+tmp/
+toolchain/
+tools/
+
+# OpenWrt generated config/state
+.config
+.config.old
+key-build*
+
+# Patch/editor leftovers
+*.orig
+*.rej
+*~
